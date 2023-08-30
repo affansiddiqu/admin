@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['username'])) {
-    header('location:http://localhost:82/techtemp/index.php');
+    header('location:http://localhost:82/admin/index.php');
 }
 ?>
 
