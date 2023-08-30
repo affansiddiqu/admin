@@ -14,7 +14,7 @@ if (isset($_POST['Register'])) {
    } else {
       $insert_data = "INSERT INTO `web` (`Username`, `Email`, `Password`) VALUES ('$username', '$email', '$pass')";
       $inser_conn = mysqli_query($conn, $insert_data);
-      header('location:http://localhost:82/techtemp/login.php');
+      header('location:http://localhost:82/admin/login.php');
    }
 }
 
