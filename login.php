@@ -16,7 +16,7 @@ if (isset($_POST['Login'])) {
       if ($decode) {
          session_start();
          $_SESSION['username'] = $row['Email'];
-         header('location:http://localhost:82/techtemp/index.php');
+         header('location:http://localhost:82/admin/index.php');
       } else {
          echo "<script> alert('invalid Email/password') </script>";
       }
